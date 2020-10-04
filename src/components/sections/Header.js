@@ -31,16 +31,16 @@ const Header = () => (
             </Art>
             <Text>
               <h1>
-                Fast in
+                Infosõlm
                 <br />
-                every way
-                <br />
-                that matters
               </h1>
               <br />
               <p>
+                {/* <StyledExternalLink href="https://github.com/ajayns/gatsby-absurd">
+                  Spotify Link &nbsp;&#x2794;
+                </StyledExternalLink> */}
                 <StyledExternalLink href="https://github.com/ajayns/gatsby-absurd">
-                  Check out source &nbsp;&#x2794;
+                  Podcast, mis seob uudised kokku
                 </StyledExternalLink>
               </p>
             </Text>
