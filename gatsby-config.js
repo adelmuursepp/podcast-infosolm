@@ -39,7 +39,7 @@ module.exports = {
         background_color: `#8bd8ed`,
         theme_color: `#8bd8ed`,
         display: `minimal-ui`,
-        icon: `static/favicon.svg`,
+        icon: `static/favicon.jpg`,
       },
     },
     {
@@ -59,6 +59,15 @@ module.exports = {
           '@styles': path.resolve(__dirname, 'src/styles/'),
           '@static': path.resolve(__dirname, 'static/'),
         },
+      },
+    },
+    {
+      resolve: 'gatsby-source-buzzsprout',
+      options: {
+        // You will need to generate an access token and get the podcast ID from your account
+        // https://github.com/Buzzsprout/buzzsprout-api#authentication
+        token: '72e9cc701b10851bc1832823545f0fa2',
+        podcastId: '1436863',
       },
     },
   ],

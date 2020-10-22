@@ -8,13 +8,13 @@ import { Section, Container } from '@components/global';
 const TEAM = [
   {
     name: 'Laura Sofie Tohver',
-    image: 'josh.jpg',
-    role: 'Founder',
+    image: 'laura.jpg',
+    role: 'Podcaster, hot mess, sotsialiit ja väitleja',
   },
   {
     name: 'Adel Müürsepp',
-    image: 'lisa.jpg',
-    role: 'Art Director',
+    image: 'adel.jpg',
+    role: 'Podcaster, vajadusel disainer või veebiarendaja, hiina keele entusiast ',
   },
   
 ];
@@ -50,7 +50,7 @@ const Team = () => (
     render={data => (
       <Section id="team" accent="secondary">
         <Container style={{ position: 'relative' }}>
-          <h1>The Team</h1>
+          <h1>Tiim</h1>
           <TeamGrid>
             {TEAM.map(({ name, image, role }) => {
               const img = data.allFile.edges.find(

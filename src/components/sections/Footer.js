@@ -52,9 +52,9 @@ const Footer = () => (
         <FooterWrapper>
           <StyledContainer>
             <Copyright>
-              <h2>Absurd</h2>
+              <h2>Infosõlm</h2>
               <span>
-                Illustrations by
+                Illustratsioonid:
                 {` `}
                 <ExternalLink href="https://twitter.com/diana_valeanu">
                   @diana_valeanu

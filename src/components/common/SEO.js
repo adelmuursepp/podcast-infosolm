@@ -2,13 +2,13 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 const SEO_DATA = {
-  description: 'An absurd gatsby starter',
-  title: 'Absurd',
+  description: 'Välispoliitika uudiste podcast',
+  title: 'Infosõlm',
   url: '',
-  author: 'ajayns',
-  keywords: ['gatsby', 'site', 'absurd'],
+  author: 'adelmuursepp',
+  keywords: ['infosolm', 'välispoliitika', 'tohver', 'müürsepp', 'adel', 'laura sofie', 'mihkelson', 'trump'],
   img: '',
-  twitterId: '@ajayns_',
+  twitterId: '',
   facebookId: '',
 };
 

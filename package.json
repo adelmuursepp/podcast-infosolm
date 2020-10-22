@@ -16,6 +16,7 @@
     "gatsby-plugin-sharp": "^2.6.11",
     "gatsby-plugin-styled-components": "^3.0.7",
     "gatsby-plugin-svgr": "^2.0.1",
+    "gatsby-source-buzzsprout": "^0.3.1",
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-sharp": "^2.1.8",
     "prop-types": "^15.6.2",
@@ -23,6 +24,7 @@
     "react-anchor-link-smooth-scroll": "^1.0.11",
     "react-collapsible": "^2.6.0",
     "react-dom": "^16.6.3",
+    "react-h5-audio-player": "^3.4.1",
     "react-helmet": "^5.2.0",
     "react-scrollspy": "^3.3.5",
     "styled-components": "^4.1.3"

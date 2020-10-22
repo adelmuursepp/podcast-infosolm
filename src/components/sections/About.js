@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
 
 import { Section, Container } from '@components/global';
 
@@ -41,6 +43,17 @@ const About = () => (
             }
           }
         }
+
+        allBuzzsproutPodcastEpisode {
+          edges {
+            node {
+              id
+              title
+              audio_url
+              episode_number
+            }
+          }
+        }
       }
     `}
     render={data => (
@@ -48,19 +61,34 @@ const About = () => (
         <Container>
           <Grid>
             <div>
-              <h2>Speed past the competition</h2>
+              <h2>Podcast 1: USA valimised</h2>
               <p>
-                Gatsby.js builds the fastest possible website. Instead of
-                waiting to generate pages when requested, pre-build pages and
-                lift them into a global cloud of servers — ready to be delivered
-                instantly to your users wherever they are.
+                Räägime Riigikogu liikme Marko Mihkelsoniga, kui usaldusväärsed hääletajate valikuid uurivad küsitlused siiski on.
               </p>
+              
+      <ul>
+        {data.allBuzzsproutPodcastEpisode.edges.map(({ node }) => (
+          <li key={node.id}>
+            <article>
+              
+              <hr />
+              <AudioPlayer
+                autoPlay
+                src={node.audio_url}
+                onPlay={e => console.log("onPlay")}
+                // other props here
+              />
+              
+            </article>
+          </li>
+        ))}
+      </ul>
             </div>
             <Art>
               <Img fluid={data.art_fast.childImageSharp.fluid} />
             </Art>
           </Grid>
-          <Grid inverse>
+          {/* <Grid inverse>
             <Art>
               <Img fluid={data.art_learn.childImageSharp.fluid} />
             </Art>
@@ -86,8 +114,8 @@ const About = () => (
             </div>
             <Art>
               <Img fluid={data.art_ideas.childImageSharp.fluid} />
-            </Art>
-          </Grid>
+            </Art> 
+          </Grid> */}
         </Container>
       </Section>
     )}

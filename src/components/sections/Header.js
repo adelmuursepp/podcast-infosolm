@@ -40,7 +40,7 @@ const Header = () => (
                   Spotify Link &nbsp;&#x2794;
                 </StyledExternalLink> */}
                 <StyledExternalLink href="https://github.com/ajayns/gatsby-absurd">
-                  Podcast, mis seob uudised kokku
+                  Podcast, mis võtab välispoliitika uudised kokku
                 </StyledExternalLink>
               </p>
             </Text>
