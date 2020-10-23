@@ -44,6 +44,17 @@ const About = () => (
           }
         }
 
+        trump_biden: file(
+          sourceInstanceName: { eq: "art" }
+          name: { eq: "joe_n_biden" }
+        ) {
+          childImageSharp {
+            fluid(maxWidth: 760) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
+
         allBuzzsproutPodcastEpisode {
           edges {
             node {
@@ -85,7 +96,7 @@ const About = () => (
       
             </div>
             <Art>
-              <Img fluid={data.art_fast.childImageSharp.fluid} />
+              <Img fluid={data.trump_biden.childImageSharp.fluid} />
             </Art>
           </Grid>
           {/* <Grid inverse>
