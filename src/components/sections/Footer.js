@@ -9,20 +9,18 @@ import ExternalLink from '@common/ExternalLink';
 import GithubIcon from '@static/icons/github.svg';
 import InstagramIcon from '@static/icons/instagram.svg';
 import TwitterIcon from '@static/icons/twitter.svg';
+import FacebookIcon from '@static/icons/facebook.svg';
 
 const SOCIAL = [
   {
-    icon: GithubIcon,
+    icon: FacebookIcon,
     link: 'https://github.com/ajayns/gatsby-absurd',
   },
   {
     icon: InstagramIcon,
-    link: 'https://instagram.com/ajay_ns',
+    link: 'https://www.instagram.com/infosolm/',
   },
-  {
-    icon: TwitterIcon,
-    link: 'https://twitter.com/ajayns08',
-  },
+  
 ];
 
 const Footer = () => (
