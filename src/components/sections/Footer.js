@@ -14,7 +14,7 @@ import FacebookIcon from '@static/icons/facebook.svg';
 const SOCIAL = [
   {
     icon: FacebookIcon,
-    link: 'https://github.com/ajayns/gatsby-absurd',
+    link: 'https://www.facebook.com/infosolm',
   },
   {
     icon: InstagramIcon,
