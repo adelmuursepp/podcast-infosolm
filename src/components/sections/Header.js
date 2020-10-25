@@ -39,7 +39,7 @@ const Header = () => (
                 {/* <StyledExternalLink href="https://github.com/ajayns/gatsby-absurd">
                   Spotify Link &nbsp;&#x2794;
                 </StyledExternalLink> */}
-                <StyledExternalLink href="https://github.com/ajayns/gatsby-absurd">
+                <StyledExternalLink href="https://www.facebook.com/infosolm">
                   Podcast, mis võtab välispoliitika uudised kokku
                 </StyledExternalLink>
               </p>
