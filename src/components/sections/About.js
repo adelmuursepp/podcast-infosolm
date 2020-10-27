@@ -78,7 +78,7 @@ const About = () => (
               </p>
               
       
-        {/* {data.allBuzzsproutPodcastEpisode.edges.map(({ node }) => (
+        {{data.allBuzzsproutPodcastEpisode.edges.map(({ node }) => (
           <div key={node.id}>
             <article>
               
@@ -92,7 +92,7 @@ const About = () => (
               
             </article>
           </div>
-        ))} */}
+        ))}}
       
             </div>
             <Art>
