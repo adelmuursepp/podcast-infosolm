@@ -74,7 +74,7 @@ const About = () => (
             <div>
               <h2>Podcast 1: USA valimised</h2>
               <p>
-                Räägime Riigikogu liikme Marko Mihkelsoniga, kui usaldusväärsed hääletajate valikuid uurivad küsitlused siiski on. Ja mida tähendaks Bideni võit USA ja maailma tuleviku jaoks?
+                Räägime Riigikogu liikme Marko Mihkelsoniga, kui usaldusväärsed hääletajate valikuid uurivad küsitlused siiski on. Ja mida tähendaks Bideni või Trumpi võit USA ja maailma tuleviku jaoks?
               </p>
               
       {console.log(data)}
