@@ -13,7 +13,7 @@ const TEAM = [
   },
   {
     name: 'Adel Müürsepp',
-    image: 'adel.jpg',
+    image: 'profile-adel.jpg',
     role: 'Podcaster, vajadusel disainer või veebiarendaja, hiina keele entusiast ',
   },
   

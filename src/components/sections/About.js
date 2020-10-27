@@ -74,11 +74,11 @@ const About = () => (
             <div>
               <h2>Podcast 1: USA valimised</h2>
               <p>
-                Räägime Riigikogu liikme Marko Mihkelsoniga, kui usaldusväärsed hääletajate valikuid uurivad küsitlused siiski on. Ja mida tähendaks Bideni võit Ameerika tuleviku jaoks?
+                Räägime Riigikogu liikme Marko Mihkelsoniga, kui usaldusväärsed hääletajate valikuid uurivad küsitlused siiski on. Ja mida tähendaks Bideni võit USA ja maailma tuleviku jaoks?
               </p>
               
-      
-        {{data.allBuzzsproutPodcastEpisode.edges.map(({ node }) => (
+      {console.log(data)}
+        {/* {{data.allBuzzsproutPodcastEpisode.edges.map(({ node }) => (
           <div key={node.id}>
             <article>
               
@@ -93,7 +93,7 @@ const About = () => (
             </article>
           </div>
         ))}}
-      
+       */}
             </div>
             <Art>
               <Img fluid={data.trump_biden.childImageSharp.fluid} />
