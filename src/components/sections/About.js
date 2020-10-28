@@ -78,20 +78,21 @@ const About = () => (
               </p>
               
       {console.log(data)}
-          <div>
+        {data.allBuzzsproutPodcastEpisode.edges.map(({ node }) => (
+          <div key={node.id}>
             <article>
               
               <hr />
               <AudioPlayer
                 
-                src={data.allBuzzsproutPodcastEpisode.edges[1].node.audio_url}
+                src={node.audio_url}
                 onPlay={e => console.log("onPlay")}
                 // other props here
               />
               
             </article>
           </div>
-       
+        ))}
       
             </div>
             <Art>
