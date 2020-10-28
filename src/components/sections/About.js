@@ -72,9 +72,9 @@ const About = () => (
         <Container>
           <Grid>
             <div>
-              <h2>Podcast 1: USA valimised</h2>
+              <h2>Podcast 1: USA presidendivalimised</h2>
               <p>
-                Räägime Riigikogu liikme Marko Mihkelsoniga, kui usaldusväärsed hääletajate valikuid uurivad küsitlused siiski on. Ja mida tähendaks Bideni või Trumpi võit USA ja maailma tuleviku jaoks?
+                Arutame Riigikogu liikme Marko Mihkelsoniga mõlema presidendikandidaadi erinevustest ja tulevikuplaanidest nii diplomaatia kui ka majanduse vallas ning mida need suunad Eesti  jaoks tähendavad. Räägime ka USA valimissüsteemist ja kajastamata ei jää ka presidendidebatid. 
               </p>
               
       {console.log(data)}
