@@ -78,22 +78,21 @@ const About = () => (
               </p>
               
       {console.log(data)}
-        {/* {{data.allBuzzsproutPodcastEpisode.edges.map(({ node }) => (
-          <div key={node.id}>
+          <div>
             <article>
               
               <hr />
               <AudioPlayer
-                autoPlay
-                src={node.audio_url}
+                
+                src={data.allBuzzsproutPodcastEpisode.edges[1].node.audio_url}
                 onPlay={e => console.log("onPlay")}
                 // other props here
               />
               
             </article>
           </div>
-        ))}}
-       */}
+       
+      
             </div>
             <Art>
               <Img fluid={data.trump_biden.childImageSharp.fluid} />
