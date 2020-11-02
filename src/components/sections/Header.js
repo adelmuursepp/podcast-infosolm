@@ -40,7 +40,13 @@ const Header = () => (
                   Spotify Link &nbsp;&#x2794;
                 </StyledExternalLink> */}
                 <StyledExternalLink href="https://www.facebook.com/infosolm">
-                  Podcast, mis võtab välispoliitika uudised kokku
+                  Podcast, mis harutab välispoliitika sõlmest lahti
+                </StyledExternalLink><br/><br/>
+                <StyledExternalLink href="https://open.spotify.com/show/2f6vHvLgsfk7dePTGafHyN?si=wX0DxX2eTWioGPIlJ8DjRQ">
+                  Kuula Spotifys &#8702; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;          
+                </StyledExternalLink>
+                <StyledExternalLink href="https://podcasts.apple.com/ee/podcast/infos%C3%B5lm/id1537817297">
+                  Kuula Apple Podcastis &#8702;
                 </StyledExternalLink>
               </p>
             </Text>

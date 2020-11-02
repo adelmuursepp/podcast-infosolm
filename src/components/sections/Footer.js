@@ -57,6 +57,7 @@ const Footer = () => (
                 <ExternalLink href="https://twitter.com/diana_valeanu">
                   @diana_valeanu
                 </ExternalLink>
+                &nbsp; ja Adel Müürsepp
               </span>
             </Copyright>
             <SocialIcons>
