@@ -72,15 +72,13 @@ const About = () => (
         <Container>
           <Grid>
             <div>
-              <h2>Podcast 1: USA presidendivalimised</h2>
-              <p>
-                Arutame Riigikogu liikme Marko Mihkelsoniga mõlema presidendikandidaadi erinevustest ja tulevikuplaanidest nii diplomaatia kui ka majanduse vallas ning mida need suunad Eesti  jaoks tähendavad. Räägime ka USA valimissüsteemist ja kajastamata ei jää ka presidendidebatid. 
-              </p>
+              
               
       {console.log(data)}
         {data.allBuzzsproutPodcastEpisode.edges.map(({ node }) => (
           <div key={node.id}>
             <article>
+            <h2>{node.title}</h2>
               
               <hr />
               <AudioPlayer
@@ -89,15 +87,19 @@ const About = () => (
                 onPlay={e => console.log("onPlay")}
                 // other props here
               />
-              
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
             </article>
           </div>
         ))}
       
             </div>
-            <Art>
+            {/* <Art>
               <Img fluid={data.trump_biden.childImageSharp.fluid} />
-            </Art>
+            </Art> */}
           </Grid>
           {/* <Grid inverse>
             <Art>

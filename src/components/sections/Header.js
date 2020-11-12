@@ -20,6 +20,16 @@ const Header = () => (
             }
           }
         }
+        team_work: file(
+          sourceInstanceName: { eq: "art" }
+          name: { eq: "team_work" }
+        ) {
+          childImageSharp {
+            fluid(maxWidth: 1400) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
       }
     `}
     render={data => (
@@ -27,7 +37,7 @@ const Header = () => (
         <Container>
           <Grid>
             <Art>
-              <Img fluid={data.art_build.childImageSharp.fluid} />
+              <Img fluid={data.team_work.childImageSharp.fluid} />
             </Art>
             <Text>
               <h1>
