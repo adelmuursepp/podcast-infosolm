@@ -87,6 +87,7 @@ const About = () => (
                 onPlay={e => console.log("onPlay")}
                 // other props here
               />
+              <div id='buzzsprout-large-player-1436863'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/1436863.js?container_id=buzzsprout-large-player-1436863&player=large'></script>
               <br></br>
               <br></br>
               <br></br>
